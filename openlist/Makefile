@@ -5,23 +5,23 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=openlist
-PKG_VERSION:=4.0.5
+PKG_VERSION:=4.0.7
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/OpenListTeam/OpenList/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=c510e31d00868774b52429897c39789547756bbea76c501e2bcfbff1f4dc70b8
+PKG_HASH:=363b990585b367e2cb1e98232ccdfba33b87b5e0352a51083eb16e223e5eac78
 PKG_BUILD_DIR:=$(BUILD_DIR)/OpenList-$(PKG_VERSION)
 
 PKG_LICENSE:=AGPL-3.0-only
 PKG_LICENSE_FILES:=LICENSE
-PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
+PKG_MAINTAINER:=Internet1235
 
 PKG_BUILD_DEPENDS:=golang/host
 PKG_BUILD_PARALLEL:=1
 PKG_BUILD_FLAGS:=no-mips16
 
-GO_PKG:=github.com/OpenListTeam/OpenList
+GO_PKG:=github.com/OpenListTeam/OpenList/v4
 GO_PKG_LDFLAGS_X:= \
 	$(GO_PKG)/internal/conf.Version=$(PKG_VERSION) \
 	$(GO_PKG)/internal/conf.WebVersion=$(FRONTEND_VERSION)
@@ -50,13 +50,13 @@ define Package/openlist/conffiles
 /etc/config/openlist
 endef
 
-FRONTEND_VERSION:=v4.0.5
-FRONTEND_FILE:=$(PKG_NAME)-frontend-$(FRONTEND_VERSION).tar.gz
+FRONTEND_VERSION:=4.0.7
+FRONTEND_FILE:=$(PKG_NAME)-frontend-v$(FRONTEND_VERSION).tar.gz
 define Download/openlist-forntend
-	URL:=https://github.com/OpenListTeam/OpenList-Frontend/releases/download/$(FRONTEND_VERSION)/
-	URL_FILE:=openlist-frontend-dist-$(FRONTEND_VERSION).tar.gz
+	URL:=https://github.com/OpenListTeam/OpenList-Frontend/releases/download/v$(FRONTEND_VERSION)/
+	URL_FILE:=openlist-frontend-dist-v$(FRONTEND_VERSION).tar.gz
 	FILE:=$(FRONTEND_FILE)
-	HASH:=0b755542c660ac66c86689957cd0d5c783ad5dac64222f764988f1c26c51d55a
+	HASH:=5075254fbae8d79b478003216284b37d0571326466759d874fcdb76faf86e11d
 endef
 
 define Build/Prepare
