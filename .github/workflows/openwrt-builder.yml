@@ -1,8 +1,11 @@
-name: build
+name: Build OpenList Package
 
 on: 
   workflow_dispatch:
   push:
+
+permissions:
+  contents: write
 
 jobs:
   Builds:

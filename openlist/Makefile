@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0-only
 #
-# Copyright (C) 2023 ImmortalWrt.org
+# Copyright (C) 2025 LEDE
 
 include $(TOPDIR)/rules.mk
 
@@ -20,6 +20,7 @@ PKG_MAINTAINER:=Internet1235
 PKG_BUILD_DEPENDS:=golang/host
 PKG_BUILD_PARALLEL:=1
 PKG_BUILD_FLAGS:=no-mips16
+PKG_USE_MIPS16:=0
 
 GO_PKG:=github.com/OpenListTeam/OpenList/v4
 GO_PKG_LDFLAGS_X:= \
