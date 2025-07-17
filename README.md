@@ -1,4 +1,4 @@
-# LuCi-app-OpenList
+# LuCI-app-OpenList
 
 I18N: 中文 | [English](README_EN.md) | [日本語](README_JA.md)
 
@@ -24,7 +24,7 @@ make menuconfig
 -----------------------------
 
 ## ⚠️ 重要兼容性说明: 
-- 该插件源码仅支持JavaScript版本的LuCi，不支持Lua版本的LuCi(即版本号21.02 - 24.10)
+- 该插件源码仅支持JavaScript版本的LuCI，不支持Lua版本的LuCI (即版本号21.02 - 24.10)
 - 该插件源码支持版本号21.02 - 24.10的官方OpenWrt、ImmortalWrt、LEDE、istoreOS等等
 
 ## 插件使用效果

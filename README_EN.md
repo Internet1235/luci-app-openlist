@@ -1,4 +1,4 @@
-# LuCi-app-OpenList
+# LuCI-app-OpenList
 
 I18N: English | [中文](README.md) | [日本語](README_JA.md)
 
@@ -24,7 +24,7 @@ make menuconfig
 -----------------------------
 
 ## ⚠️ Important Compatibility Notice: 
-- This plugin source code only supports the JavaScript version of LuCi and does not support the Lua version of LuCi (versions 21.02 - 24.10)
+- This plugin source code only supports the JavaScript version of LuCI and does not support the Lua version of LuCI (i.e., versions 21.02 - 24.10)
 - This plugin source code supports official OpenWrt, ImmortalWrt, LEDE, istoreOS, etc., for versions 21.02 - 24.10
 
 ## Plugin Screenshots

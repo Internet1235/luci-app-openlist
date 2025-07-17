@@ -1,4 +1,4 @@
-# LuCi-app-OpenList
+# LuCI-app-OpenList
 
 I18N:  日本語 | [中文](README.md) | [English](README_EN.md)
 
@@ -24,7 +24,7 @@ make menuconfig
 -----------------------------
 
 ## ⚠️ 重要な互換性に関する注意: 
-- このプラグインソースは、JavaScript版のLuCi のみをサポートしています。Lua版のLuCi(バージョン21.02 - 24.10)はサポートしていません
+- このプラグインソースは、JavaScript版のLuCI のみをサポートしています。Lua版のLuCI (バージョン21.02 - 24.10)はサポートしていません
 - このプラグインソースは、バージョン21.02 - 24.10の公式OpenWrt、ImmortalWrt、LEDE、istoreOSなどをサポートしています
 
 ## プラグインのスクリーンショット
