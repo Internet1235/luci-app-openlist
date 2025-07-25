@@ -21,6 +21,14 @@ make menuconfig
 ```
 #### 在``LuCI -> Applications``勾选``luci-app-openlist``,选择``Save``保存并选择``Exit``退出即可。
 
+---
+
+#### 为了避免和源码自带的OpenList起冲突，在``./scripts/feeds update -a``后执行下面的命令: 
+```bash
+rm -rf feeds/packages/net/openlist
+rm -rf feeds/luci/applications/luci-app-openlist
+```
+
 -----------------------------
 
 ## ⚠️ 重要兼容性说明: 
@@ -29,9 +37,9 @@ make menuconfig
 
 ## 插件使用效果
 
-![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/1.png)
+![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/1.jpeg)
 ---
-![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/2.png)
+![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/2.jpeg)
 
 
 ## Credits: 

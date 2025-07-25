@@ -21,6 +21,13 @@ make menuconfig
 ```
 #### Navigate to ``LuCI → Applications``, select ``luci-app-openlist``, then choose ``Save`` to save and choose ``Exit`` exit.
 
+---
+#### To avoid conflicts with the built-in OpenList, run the following command after ```./scripts/feeds update -a```:
+```bash
+rm -rf feeds/packages/net/openlist
+rm -rf feeds/luci/applications/luci-app-openlist
+```
+
 -----------------------------
 
 ## ⚠️ Important Compatibility Notice: 
@@ -29,9 +36,9 @@ make menuconfig
 
 ## Plugin Screenshots
 
-![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/1.png)
+![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/1.jpeg)
 ---
-![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/2.png)
+![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/2.jpeg)
 
 
 ## Credits: 

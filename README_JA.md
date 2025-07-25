@@ -21,6 +21,14 @@ make menuconfig
 ```
 #### ``LuCI → Applications`` で ``luci-app-openlist`` にチェックを入れ、``Save`` で保存後、``Exit`` を選択して終了します。
 
+---
+
+#### 組み込みのOpenListとの競合を避けるため、```./scripts/feeds update -a``` を実行した後に次のコマンドを実行してください: 
+```bash
+rm -rf feeds/packages/net/openlist
+rm -rf feeds/luci/applications/luci-app-openlist
+```
+
 -----------------------------
 
 ## ⚠️ 重要な互換性に関する注意: 
@@ -29,9 +37,9 @@ make menuconfig
 
 ## プラグインのスクリーンショット
 
-![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/1.png)
+![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/1.jpeg)
 ---
-![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/2.png)
+![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/2.jpeg)
 
 
 ## Credits: 
