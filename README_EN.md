@@ -36,9 +36,9 @@ rm -rf feeds/luci/applications/luci-app-openlist
 
 ## Plugin Screenshots
 
-![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/1.jpeg)
+![screenshots](./docs/1.jpeg)
 ---
-![screenshots](https://cdn.jsdelivr.net/gh/Internet1235/luci-app-openlist@main/docs/2.jpeg)
+![screenshots](./docs/2.jpeg)
 
 
 ## Credits: 
