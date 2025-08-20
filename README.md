@@ -32,8 +32,7 @@ rm -rf feeds/luci/applications/luci-app-openlist
 -----------------------------
 
 ## ⚠️ 重要兼容性说明: 
-- 该插件源码仅支持JavaScript版本的LuCI，不支持Lua版本的LuCI (即版本号21.02 - 24.10)
-- 该插件源码支持版本号21.02 - 24.10的官方OpenWrt、ImmortalWrt、LEDE、istoreOS等等
+- 当前分支仅支持LuCI2(OpenWrt21.02-24.10), 如要在LuCI(OpenWrt-18.06)上使用，请前往 ``lua`` 分支或[点击这里](https://github.com/Internet1235/luci-app-openlist/tree/lua)
 
 ## 插件使用效果
 

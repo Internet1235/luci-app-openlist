@@ -32,8 +32,7 @@ rm -rf feeds/luci/applications/luci-app-openlist
 -----------------------------
 
 ## ⚠️ 重要な互換性に関する注意: 
-- このプラグインソースは、JavaScript版のLuCI のみをサポートしています。Lua版のLuCI (バージョン21.02 - 24.10)はサポートしていません
-- このプラグインソースは、バージョン21.02 - 24.10の公式OpenWrt、ImmortalWrt、LEDE、istoreOSなどをサポートしています
+- このブランチは LuCI2 (OpenWrt 21.02 - 24.10) のみサポートしています。LuCI (OpenWrt 18.06) でご利用の場合は、``lua`` ブランチに切り替えるか、[こちらをクリック](https://github.com/Internet1235/luci-app-openlist/tree/lua)してください。
 
 ## プラグインのスクリーンショット
 

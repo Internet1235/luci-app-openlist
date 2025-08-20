@@ -31,8 +31,7 @@ rm -rf feeds/luci/applications/luci-app-openlist
 -----------------------------
 
 ## ⚠️ Important Compatibility Notice: 
-- This plugin source code only supports the JavaScript version of LuCI and does not support the Lua version of LuCI (i.e., versions 21.02 - 24.10)
-- This plugin source code supports official OpenWrt, ImmortalWrt, LEDE, istoreOS, etc., for versions 21.02 - 24.10
+- This branch only supports LuCI2 (OpenWrt 21.02 - 24.10). To use it on LuCI (OpenWrt 18.06), please switch to the ``lua`` branch or [click here](https://github.com/Internet1235/luci-app-openlist/tree/lua)
 
 ## Plugin Screenshots
 
