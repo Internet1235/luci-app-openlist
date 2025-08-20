@@ -13,7 +13,7 @@ I18N: 中文 | [English](README_EN.md) | [日本語](README_JA.md)
 
 ### 1. 使用git clone克隆到OpenWrt源码里:
 ```bash
-git clone https://github.com/Internet1235/luci-app-openlist.git package/openlist
+git clone https://github.com/Internet1235/luci-app-openlist.git -b lua package/openlist
 ```
 - #### 在配置菜单中添加OpenList:
 ```bash
@@ -31,9 +31,6 @@ rm -rf feeds/luci/applications/luci-app-openlist
 
 -----------------------------
 
-## ⚠️ 重要兼容性说明: 
-- 该插件源码仅支持JavaScript版本的LuCI，不支持Lua版本的LuCI (即版本号21.02 - 24.10)
-- 该插件源码支持版本号21.02 - 24.10的官方OpenWrt、ImmortalWrt、LEDE、istoreOS等等
 
 ## 插件使用效果
 

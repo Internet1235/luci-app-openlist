@@ -13,7 +13,7 @@ I18N: English | [中文](README.md) | [日本語](README_JA.md)
 
 ### 1. Clone into OpenWrt source code using git:
 ```bash
-git clone https://github.com/Internet1235/luci-app-openlist.git package/openlist
+git clone https://github.com/Internet1235/luci-app-openlist.git -b lua package/openlist
 ```
 - #### Add OpenList in the configuration menu:
 ```bash
@@ -30,9 +30,6 @@ rm -rf feeds/luci/applications/luci-app-openlist
 
 -----------------------------
 
-## ⚠️ Important Compatibility Notice: 
-- This plugin source code only supports the JavaScript version of LuCI and does not support the Lua version of LuCI (i.e., versions 21.02 - 24.10)
-- This plugin source code supports official OpenWrt, ImmortalWrt, LEDE, istoreOS, etc., for versions 21.02 - 24.10
 
 ## Plugin Screenshots
 

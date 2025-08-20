@@ -13,7 +13,7 @@ I18N:  日本語 | [中文](README.md) | [English](README_EN.md)
 
 ### 1. git cloneを使用してOpenWrtソースコードにクローンする:
 ```bash
-git clone https://github.com/Internet1235/luci-app-openlist.git package/openlist
+git clone https://github.com/Internet1235/luci-app-openlist.git -b lua package/openlist
 ```
 - #### 設定メニューにOpenListを追加:
 ```bash
@@ -31,9 +31,6 @@ rm -rf feeds/luci/applications/luci-app-openlist
 
 -----------------------------
 
-## ⚠️ 重要な互換性に関する注意: 
-- このプラグインソースは、JavaScript版のLuCI のみをサポートしています。Lua版のLuCI (バージョン21.02 - 24.10)はサポートしていません
-- このプラグインソースは、バージョン21.02 - 24.10の公式OpenWrt、ImmortalWrt、LEDE、istoreOSなどをサポートしています
 
 ## プラグインのスクリーンショット
 
