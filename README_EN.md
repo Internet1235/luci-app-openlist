@@ -41,7 +41,6 @@ rm -rf feeds/luci/applications/luci-app-openlist
 ## Credits: 
 
 - [OpenList](https://github.com/OpenListTeam/OpenList)
-- OpenList Plugin: https://github.com/Internet1235/luci-app-openlist.git && https://github.com/coolsnowwolf/packages/tree/master/net/openlist
 - [OpenWrt](https://github.com/openwrt/openwrt)
 - [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 - [ImmortalWrt](https://github.com/immortalwrt/immortalwrt)
