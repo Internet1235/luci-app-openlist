@@ -53,7 +53,7 @@ endef
 
 FRONTEND_VERSION:=4.1.2
 FRONTEND_FILE:=$(PKG_NAME)-frontend-dist-v$(FRONTEND_VERSION).tar.gz
-define Download/openlist-forntend
+define Download/openlist-frontend
 	URL:=https://github.com/OpenListTeam/OpenList-Frontend/releases/download/v$(FRONTEND_VERSION)/
 	URL_FILE:=$(FRONTEND_FILE)
 	FILE:=$(FRONTEND_FILE)
@@ -85,6 +85,6 @@ define Package/openlist/install
 	$(INSTALL_BIN) $(CURDIR)/files/openlist.init $(1)/etc/init.d/openlist
 endef
 
-$(eval $(call Download,openlist-forntend))
+$(eval $(call Download,openlist-frontend))
 $(eval $(call GoBinPackage,openlist))
 $(eval $(call BuildPackage,openlist))
